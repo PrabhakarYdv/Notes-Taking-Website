@@ -1,0 +1,169 @@
+body{
+    background-color: rgb(193, 247, 229);
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 20vh;
+}
+#navbar{
+    margin-top: 0vh;
+    background-color:rgba(24, 23, 23, 0.342); 
+    border-radius: 20px;
+    margin-bottom: 0vh;
+}
+#navbar li{
+    display: flex;
+    list-style: none;
+    width: 80vw;
+}
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+}
+#navbar li a:hover{
+    color: red;
+    /* background-color: black; */
+}
+#search{
+    height: 3vh;
+    margin-top: 4vh;
+    margin-left: 35vw;
+    margin-right: 0vw;
+}
+#search-btn:hover{
+    background: #007bff;
+    color: #fff;
+    border-color: #007bff
+}
+#heading{
+    color: rgb(231, 84, 84);
+    font-family: Algerian;
+    margin-bottom: 0vh;
+    font-size: 4em;
+}
+.head{
+    margin-top: 0vh;
+    text-align: center;
+
+}
+#para{
+    font-family: Aparajita;
+    margin-top: 0px;
+    color:rgb(79, 8, 146);
+    font-size: 2em;
+
+}
+#text-notes{
+    background-color: rgba(255, 255, 255, 0.993);
+    margin-top: 0;
+    height: 15vh;
+    width: 70vw;
+    border: 2px solid black;
+    border-style: groove;
+    border-radius: 10px;
+}
+#box-heading{
+    margin-bottom: 1vh;
+    font-style: italic;
+    font-family: cursive;
+    font-size: 1.5em;
+}
+.text-box{
+    margin-top: 0px;
+    margin-left: 5vw;
+}
+.hr{
+    margin-top: 0px;
+    margin-bottom: -20px;
+    color: black
+}
+#add-btn{
+    cursor: pointer;
+    background-color: rgba(3, 47, 65, 0.863);
+    color: white;
+    font-size: 1.8em;
+    margin-top: 1.5vh;
+    margin-bottom: 2vh;
+    margin-left: 3vw;
+    border-radius: 10px;
+}
+#notesbox button:hover{
+    background-color: rgba(4, 89, 122, 0.863);
+    color:white;
+}
+#clear-btn{
+    cursor: pointer;
+    background-color: rgba(3, 47, 65, 0.863);
+    color: white;
+    font-size: 1.8em;
+    margin-top: 1.5vh;
+    margin-bottom: 2vh;
+    margin-left: 1vw;
+    margin-right: 3vw;
+    border-radius: 10px;
+}
+#search-btn{
+    cursor: pointer; 
+    background-color: black;
+    color:rgb(245, 245, 245);
+    height: 3.8vh;
+    width: 6vw;
+    margin-top: 4vh;
+    margin-left: 0.2vw;
+    margin-right: 1vw;
+    font-size: 1em;
+    font-style: bold;
+
+
+}
+
+
+.dlt-btn{
+    cursor: pointer;
+    font-size: 1.5em;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    margin-top: 0vh;
+    margin-bottom: 4vh;
+    margin-left: 31vw;
+    /* position: relative; */
+}
+#savednotes button:hover{
+    background-color: red;
+    border-color: red;
+    border: outset;
+}
+
+
+#note-heading{
+   font-size: 2em;
+   margin-left: 4.4vw;
+}
+.allNotes{
+    background-color: white;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    width: 15*4vw;
+    height: 25vh;
+}
+.allNotes h5 {
+    margin-top: 1vh;
+    /* margin-left: 1vw; */
+    font-size: 1.3em;
+    text-align: center;
+    color: rgb(231, 67, 26);
+}
+.allNotes p {
+    margin-top: -4vh;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    font-size: 1.1em;
+}
+.allNotes button:hover{
+    background-color: red;
+    border-color: red;
+}
+#savednotes{
+    /* display: inline-block; */
+}
